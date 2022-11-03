@@ -1,4 +1,4 @@
-from src.DataTypes.fetch_uid import data
+from Src.DataTypes.fetch_uid import data
 
 res = {}
 
