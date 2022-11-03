@@ -1,0 +1,12 @@
+li = [1,2,3,4,5,6,7,8,9,10]
+print(li[:])
+print(li[3:10])
+print(li[::-1])
+print(li[-5:-1])
+print(li[:5:2])
+print(li[:3:-2])
+print(li[10:6:-2])
+print(li[:-5])
+print(li[-1:])
+print(li[::-2])
+print(li[-5:6])
