@@ -1,5 +1,5 @@
 # in tuple there are only two methods that are count and index only
-# we cant modify the tuple after assigning the values in tuple data
+# we can't modify the tuple after assigning the values in tuple data
 
 # syntax: tuple.count(element)
 # params: element

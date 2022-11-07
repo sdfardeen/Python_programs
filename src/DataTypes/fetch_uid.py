@@ -693,5 +693,6 @@ data = [{"env": "QA", "event_type": "evt", "game_name": "AStats_IOS_QA", "i": "S
          "s": "IDFV-D1AB2A53-C348-43AC-83DC-4A14CA70A747", "sess_id": "d4715da0-ba77-4741-ad01-893ce962403c",
          "ts": 1666382019, "uid": "rev_sdk_app_10_12_21_50_a1235", "v_maj": "2022.7.0", "v_min": "2115"}]
 
+# using dict.get(self,key), fetching data
 for item in data:
     print(item.get('uid'))

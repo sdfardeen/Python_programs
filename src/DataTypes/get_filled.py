@@ -8,11 +8,15 @@ for item in json_data:
 # json_data.filled == 0 or 1,game_placement == servedByAdNetwork
 ress = []
 for itm in json_data:
+    # checking the key:'filled' == 0 or 1 in json_data
     if itm.get('json_data', {}).get('filled', {}) == 0 or 1:
+        # if the key:'filled'==0 or 1 in in json_data,
+        # then add in result, using list.append()
         ress.append(itm.get('json_data', {}).get('filled', {}))
-    if itm.get('json_data',{}).get('servedByAdNetwork', {}) == itm.get('json_data',{}).get('game_placement',{}):
+    #  checking the key:'servedBrAdNetwork' in given data's key:'json_data',
+    # if that key is in json_data, then validating that key with json_data's key:'game_placement'
+    if itm.get('json_data', {}).get('servedByAdNetwork', {}) == itm.get('json_data', {}).get('game_placement', {}):
+        # if that validation is matches then we are printing true or else printing false
         print("true")
-
     else:
         print("false")
-

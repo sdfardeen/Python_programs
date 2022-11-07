@@ -1,5 +1,6 @@
 from src.DataTypes.fetch_uid import data
 
+
 res = {}
 
 for items in data:
