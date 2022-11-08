@@ -1,4 +1,4 @@
-from Src.Inheritance.Hierarchical_inheritance.hierarchical_parent import Parent
+from src.Inheritance.Hierarchical_inheritance.hierarchical_parent import Parent
 
 
 class HierarchicalChild(Parent):
