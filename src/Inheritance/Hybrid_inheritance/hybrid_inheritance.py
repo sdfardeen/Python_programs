@@ -1,5 +1,5 @@
-from Src.Inheritance.Hybrid_inheritance.p1_child1 import Child1
-from Src.Inheritance.Hybrid_inheritance.p1_child2 import Child2
+from src.Inheritance.Hybrid_inheritance.p1_child1 import Child1
+from src.Inheritance.Hybrid_inheritance.p1_child2 import Child2
 
 Hyi = Child1("fardeen",22,"Cars, bikes, choper", "Highlander")
 print(Hyi.get_name())
