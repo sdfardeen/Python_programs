@@ -1,0 +1,5 @@
+numpy
+xlrd
+pandas
+path
+requests
