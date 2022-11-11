@@ -1,4 +1,4 @@
-from Src.Inheritance.Multilevel_inheritance.grandparent_file import GrandParentFile
+from src.Inheritance.Multilevel_inheritance.grandparent_file import GrandParentFile
 
 
 class Parent(GrandParentFile):

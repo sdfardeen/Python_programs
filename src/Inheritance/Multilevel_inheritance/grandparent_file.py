@@ -1,6 +1,10 @@
+# multilevel inheritance: inherits of a derived(child) class from its base(parent) class,
+# as well as inherits of a derived(child) class from another derived(child) class
+
 class GrandParentFile:
 
-    def __init__(self,name,age):
+    def __init__(self, name, age):
+
         self.name = name
         self.age = age
 

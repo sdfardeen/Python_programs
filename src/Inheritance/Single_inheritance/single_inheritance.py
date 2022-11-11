@@ -1,4 +1,4 @@
-from Src.Inheritance.Single_inheritance.child_file import Child
+from src.Inheritance.Single_inheritance.Single_child_file import Child
 
 
 SI = Child("Syed", 24, "Ongole", "Gopal nagar")
