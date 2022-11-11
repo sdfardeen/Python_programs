@@ -1,7 +1,6 @@
 import time
 from path import Path
 import os
-import selenium
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
@@ -16,7 +15,7 @@ dri.implicitly_wait(20)
 
 num = 2207111050
 for i in range(0, 150):
-    path_f = "C:\Users\SYED ZAHIRA\PycharmProjects\Python_programs"
+    path_f = ""
     dri.find_element(*(By.ID, 'htno')).clear()
     dri.find_element(*(By.ID, 'htno')).send_keys(str(num))
     dri.find_element(*(By.ID, 'btnsubmit')).click()
