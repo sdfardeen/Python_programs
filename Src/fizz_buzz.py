@@ -21,7 +21,7 @@ print(count)
 inp = [12, 36, 54, 60, 72]
 for num in inp:
     if num % 3 == 0 and num % 5 == 0:
-        print("FIZZBUZZ")  
+        print("FIZZBUZZ")
     elif num % 5 == 0:
         print("BUZZ")
     elif num % 3 == 0:
