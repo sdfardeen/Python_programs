@@ -13,7 +13,7 @@ def get_api_response(url, params, api_type="GET", headers={}):
 
 
 ed = get_api_response(
-    "https://sbox1.gluid.internal.revtech.glulive.com/gluid/v1/links/search",
+    "https://www.amazon.com",
                       {"playerId": "test_rev_sdk_rv"}
 )
 

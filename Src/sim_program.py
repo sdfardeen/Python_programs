@@ -1,26 +1,3 @@
-"""
-
-def a(i, ls=[]):
-    ls.append(i)
-    return ls
-
-print(a(10))
-
-print(a(12, []))
-
-print(a(13))
-
-def MissingNo(arr):
-    n = len(arr)
-    total = (n + 1)*(n + 2)/2
-    arr_sum = sum(arr)
-    return total - arr_sum
-
-print(MissingNo([1,2,3,4,7,8,9,10]))
-"""
-# GCD of more than two (or array) numbers
-
-# Function implements the Euclidean
 # algorithm to find H.C.F. of two number
 def find_gcd(x, y):
     while (y):
