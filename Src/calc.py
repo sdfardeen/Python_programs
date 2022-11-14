@@ -27,4 +27,5 @@ class Solution:
 
         return calc(0)
 
+
 print(Solution.calculate("6*(4/2)+3*1"))

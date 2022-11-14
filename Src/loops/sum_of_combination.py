@@ -1,32 +1,32 @@
 input_string = "2,4,6,8"
 som = "16"
-num_ar = [int(i) for i in input_string.split(",")]
+num_arr = [int(i) for i in input_string.split(",")]
 som = int(som) if type(som) == str and som else 0
 
 
-def get_combi(num_ar):
+def get_combi(num_arr):
 
 	res = []
 
-	tsum = som
+	t_sum = som
 
-	for i in num_ar:
+	for i in num_arr:
 
 		if not som:
 
 			return
 
-		tsum = som
+		t_sum = som
 
 		tmp = i
 
 		tmpres = []
 
-		while tsum % tmp == 0:
+		while t_sum % tmp == 0:
 
 			tmpres.append(tmp)
 
-			tsum = int(tsum//tmp)
+			t_sum = int(t_sum//tmp)
 
 		if tmpres:
 
@@ -35,4 +35,4 @@ def get_combi(num_ar):
 	print(res)
 
 
-get_combi(num_ar)
+get_combi(num_arr)
